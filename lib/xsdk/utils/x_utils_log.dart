@@ -5,10 +5,6 @@ abstract class XLogUtils{
 
   //直接调用打印log
   static void printLog(String str) {
-    // if (kDebugMode) {
-    //   print('debug: $x');
-    // }
-    //debugPrint('xsdk: $str');
     print('xsdk: $str');
   }
 
